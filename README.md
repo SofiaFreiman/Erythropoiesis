@@ -3,6 +3,6 @@
 Several bone marrow failure syndromes have anemia as their major clinical feature. However, they have in-common other things, most unexpectedly - significantly increased cancer predisposition. \
 Cancer predisposition is link to bone marrow failure syndrome, not to anemia in general. In this project I am going to utilize some publicly available datasets on several anemias to investigate the specific fetures of bone marrow failure syndrome predisposition to cancer. \
 
-* *Hematopoietic public datasets.ipynb* notebook is for **loading, quality control, annotation, and integration of 5 single-cell RNA-Seq datasets** for Thalassemia, Sickle Cell Disease, Aplastic Anemia, Diamond-Blackfan Anemia, Fanconi Anemia, Myelodysplastic Syndrome (with 5q deletion).
+* *Hematopoietic public datasets.ipynb* notebook is for **loading, quality control, annotation, and integration of 5 single-cell RNA-Seq datasets** for Thalassemia, Sickle Cell Disease, Aplastic Anemia, Diamond-Blackfan Anemia, Fanconi Anemia, Myelodysplastic Syndrome (with 5q deletion). \
 Celltypist and Azimuth we used for automatic annotation, followed by manual cluster-based annotation. \
 Integration was two-step: unsupervised SCVI model on 1e4 HVGs was used to create the initial integration, and additional training was performed with supervised SCANVI model.
