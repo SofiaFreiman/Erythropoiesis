@@ -6,4 +6,10 @@ Cancer predisposition is linked to bone marrow failure syndrome, not to anemia i
 * *Public datasets: load, QC, PP* are notebooks for **loading, quality control, and annotation of 5 single-cell RNA-Seq datasets** for Thalassemia, Sickle Cell Disease, Aplastic Anemia, Diamond-Blackfan Anemia, Fanconi Anemia, Myelodysplastic Syndrome (with 5q deletion). *Public datasets: integration* is a notebook for integration and batch correction. \
 Initially, this was in one notebook, but it was too large to render it into GitHub as is and I had to split it. \
 Celltypist and Azimuth we used for automatic annotation, followed by manual cluster-based annotation. \
-Integration was two-step: unsupervised SCVI model on 1e4 HVGs was used to create the initial integration, and additional training was performed with supervised SCANVI model.
+Integration was two-step: unsupervised SCVI model on 1e4 HVGs was used to create the initial integration, and additional training was performed with supervised SCANVI model. \
+**GSE133181: Thalassemia & Sickle Cell Disease** \
+**GSE181989: Aplastic Anemia** \
+**GSE156441: Diamond-Blackfan Anemia (RPS19-, RPL11-, RPL5-deficient)** \
+**GSE180536: Fanconi Anemia** \
+**GSE222368: Diamond-Blackfan Anemia and Myelodysplastic Syndrome 5q**
+  
